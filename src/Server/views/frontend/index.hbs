@@ -1,0 +1,32 @@
+{{#compress}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ga-hoole</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div style="margin-top:-20px" id="root">
+
+
+      <script src="/vendor.bundle.js"></script>
+      <script src="/main.bundle.js"></script>
+
+    </div>
+
+  </body>
+  <script>
+      /* Initial state*/
+      const initialState={
+        device:{
+          isMobile:'{{{isMobile}}}'
+        }
+      } 
+      window.initialState=initialState;
+    </script>
+</html>
+{{/compress}}
